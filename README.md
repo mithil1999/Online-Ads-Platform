@@ -5,7 +5,7 @@ Architecture of the project
 AIM:
 With increasing digitisation, there has been a tremendous boom in the field of online advertising as more and more companies are willing to pay large amounts of money in order to reach the customers via online platform. So, in this project, we will be building an online advertising platform.
 
-TASKS:
+TASKS PERFORMED:
 1. The platform will have an interface for campaign managers to run the Ad campaign and another interface for the client to present the Ads and send the user action back to the advertising platform.
 2. Through the campaign manager, the Ad instructions (New Ad Campaign, Stopping the existing Ad campaign) will be published to a Kafka Queue. The ‘Ad Manager’ will read the message from that Kafka queue and update     the MySQL store accordingly.
 3. An Ad Server will hold the auction of Ads for displaying the Ad to a user device. The auction winner will pay the amount bid by the second Ad. A user simulator will hit the Ad Server API for displaying Ads and      send the user interaction feedback back to the feedback handler through API.
