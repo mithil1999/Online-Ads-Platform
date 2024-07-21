@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/726b70d9-900f-4ae8-84f2-e8916b5c4d3c)# Online-Ads-Platform
 Developed an Ads Platform which works on Real-time Streaming data consumed from Apache Kafka, computed the KPIs using Apache Spark and stored them in a RDBMS, Data Lakes so that data can be furthur consumed for BI analytics.
 Architecture of the project
 ![WhatsApp Image 2024-07-21 at 12 29 45 PM](https://github.com/user-attachments/assets/75ad7b69-136f-4111-97c4-4aa00c9c8bcc)
